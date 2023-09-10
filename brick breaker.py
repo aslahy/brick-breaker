@@ -9,11 +9,11 @@ pygame.font.init()
 WIDTH, HEIGHT = 1280, 720
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Menu")
-BG = pygame.image.load("block breaker/Background.png")
+BG = pygame.image.load("brick_breaker/Background.png")
 
 # Define a function to get a font with a specific size
 def get_font(size):
-    return pygame.font.Font("block breaker/font.ttf", size)
+    return pygame.font.Font("brick_breaker/font.ttf", size)
 
 # Constants and settings for the game
 FPS = 60
@@ -21,9 +21,9 @@ PADDLE_WIDTH = 100
 PADDLE_HEIGHT = 15
 BALL_RADIUS = 10
 SCORE = 0
-HITSFX = pygame.mixer.Sound("block breaker/hit.mp3")
-WINSFX = pygame.mixer.Sound("block breaker/win.mp3")
-LOSESFX = pygame.mixer.Sound("block breaker/lose.mp3")
+HITSFX = pygame.mixer.Sound("brick_breaker/hit.mp3")
+WINSFX = pygame.mixer.Sound("brick_breaker/win.mp3")
+LOSESFX = pygame.mixer.Sound("brick_breaker/lose.mp3")
 LIVES_FONT = pygame.font.SysFont("Ariel", 50)
 
 # Define the Paddle class
