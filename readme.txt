@@ -1,6 +1,6 @@
-# Block Breaker Game
+# Brick Breaker Game
 
-Block Breaker is a classic arcade-style game developed using the Pygame library. The objective of the game is to control a paddle to bounce a ball and break bricks in the play area.
+Brick Breaker is a classic arcade-style game developed using the Pygame library. The objective of the game is to control a paddle to bounce a ball and break bricks in the play area.
 
 ## Features
 
@@ -35,6 +35,6 @@ Block Breaker is a classic arcade-style game developed using the Pygame library.
 
 This game was created as a project to learn game development using the Pygame library. Special thanks to the Pygame community for their resources and tutorials.
 
-Enjoy playing Block Breaker! Feel free to contribute and improve the game as you like.
+Enjoy playing Brick Breaker! Feel free to contribute and improve the game as you like.
 
 
